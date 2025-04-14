@@ -1,0 +1,147 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 24px;
+  transition: padding 0.3s ease;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.page-title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.page-description {
+  margin-bottom: 40px;
+  text-align: center;
+  color: #666;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.card-header {
+  padding: 16px;
+  background-color: #1976d2;
+  color: white;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-footer {
+  padding: 16px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #e0e0e0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.pattern-card {
+  max-width: 1200px;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+.pattern-badge {
+  margin-right: 8px !important;
+  margin-bottom: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+.pattern-badge:hover {
+  transform: scale(1.05);
+}
+
+.pattern-badge.arithmetic {
+  background-color: #4caf50 !important;
+  color: white !important;
+}
+
+.pattern-badge.geometric {
+  background-color: #2196f3 !important;
+  color: white !important;
+}
+
+.pattern-badge.symmetric {
+  background-color: #9c27b0 !important;
+  color: white !important;
+}
+
+.pattern-badge.increasing {
+  background-color: #4caf50 !important;
+  color: white !important;
+}
+
+.pattern-badge.decreasing {
+  background-color: #f44336 !important;
+  color: white !important;
+}
+
+.pattern-badge.constant {
+  background-color: #ff9800 !important;
+  color: white !important;
+}
+
+/* Loading animation */
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.loading {
+  animation: pulse 1.5s infinite;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .main-content {
+    padding: 16px;
+  }
+  
+  .pattern-card {
+    margin: 0;
+  }
+
+  .card {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .pattern-badge {
+    margin-bottom: 4px !important;
+  }
+} 
