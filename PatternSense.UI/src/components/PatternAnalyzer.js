@@ -1,3 +1,13 @@
+/**
+ * PatternAnalyzer Component
+ * 
+ * @author ELYES
+ * @copyright Copyright (c) 2024-2025 ELYES. All rights reserved.
+ * 
+ * This component provides pattern analysis functionality with visualization
+ * using Chart.js and Material-UI components.
+ */
+
 import React, { useState, useCallback, useEffect } from 'react';
 import {
   Box,

@@ -1,4 +1,6 @@
-# PatternSense Analytics (.NET Core)
+# PatternSense Analytics
+
+Copyright (c) 2024-2025 ELYES. All rights reserved.
 
 This is the .NET Core component of the PatternSense AI project, providing advanced pattern analysis capabilities that complement the Java Spring Boot backend.
 

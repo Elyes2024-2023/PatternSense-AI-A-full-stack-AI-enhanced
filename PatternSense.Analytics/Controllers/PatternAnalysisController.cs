@@ -1,3 +1,13 @@
+/**
+ * PatternAnalysisController
+ * 
+ * @author ELYES
+ * @copyright Copyright (c) 2024-2025 ELYES. All rights reserved.
+ * 
+ * This controller handles pattern analysis requests and provides
+ * both basic and advanced pattern analysis functionality.
+ */
+
 using Microsoft.AspNetCore.Mvc;
 using PatternSense.Analytics.Models;
 using PatternSense.Analytics.Services;
