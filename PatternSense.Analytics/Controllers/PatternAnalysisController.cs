@@ -1,7 +1,7 @@
 /**
  * PatternAnalysisController
  * 
- * @author ELYES
+ * @author  ELYES
  * @copyright Copyright (c) 2024-2025 ELYES. All rights reserved.
  * 
  * This controller handles pattern analysis requests and provides
